@@ -19,9 +19,7 @@ directory = "/workspace/ds2002-dp2/data/"
 for filename in os.listdir(directory):
   with open(os.path.join(directory, filename)) as f:
     print(f)
-    # do other things with f
-# assuming you have defined a connection to your db and collection already:
-    # Loading or Opening the json file
+    
     try:
       file_data = json.load(f)
     except Exception as e:
