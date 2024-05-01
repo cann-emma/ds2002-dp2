@@ -12,7 +12,7 @@ client = MongoClient(uri, username='nmagee', password=MONGOPASS, connectTimeoutM
 # specify a database
 db = client.zgb8ts
 # specify a collection
-collection = db.retry
+collection = db.gen
 
 directory = "/workspace/ds2002-dp2/data/"
 
